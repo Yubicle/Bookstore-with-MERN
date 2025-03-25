@@ -7,7 +7,7 @@ import router from './routers/router.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    change site entry point from <App/> to router.jsx
+    {/* change site entry point from <App/> to router.jsx */}
     <RouterProvider router={router}/>
   </StrictMode>,
 )

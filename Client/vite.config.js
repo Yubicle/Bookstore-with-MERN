@@ -8,4 +8,21 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  theme: {
+    extend: {
+      // Colour variables for the theme of the website.
+      colors: {
+        'primary': '#023020', //d-green
+        'secondary': '#0D0842', //d-blue
+        'blackbg': '#F3F3F3', //white
+        'favourite': '#FF5841', //gold
+      },
+      fontFamily:{
+        'primary': ['Montserrat', 'sans-serif'],
+        'secondary': ['Nunito Sans', 'sans-serif'],
+      }
+    },
+  }
+
+  
 })
